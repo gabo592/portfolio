@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="/assets/css/styles.css">
+
+        <title>Gabriel Avilés</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Gabriel Avilés</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#inicio" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i>
+                                Inicio
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#acerca" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>
+                                Acerca de mí
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#habilidades" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>
+                                Habilidades
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#servicios" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i>
+                                Servicios
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#portafolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>
+                                Portafolio
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contacto" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>
+                                Contáctame
+                            </a>
+                        </li>
+                    </ul>
+
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="inicio">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <img src="/assets/img/perfil.jpg" alt="perfil" class="perfil-img" loading="lazy">
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hola, soy Gabriel Avilés</h1>
+                            <h3 class="home__subtitle">Desarrollador backend</h3>
+                            <p class="home__description">Experiencia en diseñar y construir bases de datos, así como brindar soluciones del lado del servidor.</p>
+                            <a href="#contacto" class="button button--flex">
+                                Contáctame <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#acerca" class="home__scroll-button button--flex">
+                            <span class="home__scroll-name">Desliza hacia abajo</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="acerca">
+                <h2 class="section__title">Acerca de mí</h2>
+                <span class="section__subtitle">Introducción</span>
+
+                <div class="about__container container grid">
+
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="Acerca de mí" class="about__img" loading="lazy">
+                    </div>
+
+                    <div>
+                        <p class="about__description">Estudiante de la carrera Ingeniería de Sistemas en la Universidad Nacional de Ingeniería. Capaz de desarrollar y gestionar sistemas organizacionales eficaces, eficietes, innovadores, de calidad y competitivos integrando soluciones tecnológicas.</p>
+
+                        <div class="about__buttons">
+                            <a download="" href="/assets/pdf/CV Gabriel Avilés 2023.pdf" class="button button--flex">
+                                Descargar CV <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="habilidades">
+                <h2 class="section__title">Habilidades</h2>
+                <span class="section__subtitle">Mi nivel técnico</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h3 class="skills__title">Desarrollador Frontend</h3>
+                                    <span class="skills__subtitle">Poco más de 5 meses.</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__icon">
+                                        <img src="/assets/img/html-5.png" alt="html" class="skills__html" loading="lazy">
+                                    </div>
+
+                                    <div class="skills__icon">
+                                        <img src="/assets/img/css-3.png" alt="css" class="skills__css" loading="lazy">
+                                    </div>
+
+                                    <div class="skills__icon">
+                                        <img src="/assets/img/js.png" alt="js" class="skills__js" loading="lazy">
+                                    </div>
+
+                                    <div class="skills__icon">
+                                        <img src="/assets/img/react.png" alt="reac" class="skills__react" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h3 class="skills__title">Desarrollador Backend</h3>
+                                    <span class="skills__subtitle">Aproximadamente 2 años.</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__icon">
+                                        <img src="/assets/img/c-sharp.png" alt="c-sharp" loading="lazy" class="skills__sc">
+                                    </div>
+
+                                    <div class="skills__icon">
+                                        <img src="/assets/img/sql-server.png" alt="sql-server" loading="lazy" class="skills__sql">
+                                    </div>
+
+                                    <div class="skills__icon">
+                                        <img src="/assets/img/website.png" alt="dotnet" loading="lazy" class="skills__dotnet">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Preparación</h2>
+                <span class="section__subtitle">Progreso personal</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Estudios
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <div class="qualification__content">
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Bachiller</h3>
+                                    <span class="qualification__subtitle">Colegio Agustiniano</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification__content">
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Ingeniería de Sistemas</h3>
+                                    <span class="qualification__subtitle">Universidad Nacional de Ingeniería</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020 - Actualidad
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="servicios">
+                <h2 class="section__title">Servicios</h2>
+                <span class="section__subtitle">Lo que puedo ofrecer</span>
+
+                <div class="services__container container grid">
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-arrow services__icon"></i>
+                            <h3 class="services__title">Desarrollo</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Desarrollo</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Análisis, diseño e implementación de sistemas de información (Escritorio/Web).</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-database services__icon"></i>
+                            <h3 class="services__title">Bases de Datos</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Bases de Datos</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Análisis, diseño e implementación y mantenimiento de Bases de Datos SQL.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Diseño e implementación de data warehouse.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portafolio">
+                <h2 class="section__title">Portafolio</h2>
+                <span class="section__subtitle">Proyectos realizados</span>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contacto">
+                <h2 class="section__title">Contáctame</h2>
+                <span class="section__subtitle">A un click de distancia.</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Llámame</h3>
+                                <span class="contact__subtitle">8680-0191</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Correo electrónico</h3>
+                                <span class="contact__subtitle">gabrielaviles240@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Ubicación</h3>
+                                <span class="contact__subtitle">Managua, Nicaragua.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="contact__information">
+                            <a href="https://www.linkedin.com/in/gabriel-avil%C3%A9s-20369422b/" target="_blank" rel="noopener noreferrer">
+                                <i class="uil uil-linkedin contact__icon"></i>
+                                <h3 class="contact__title">Linkedin</h3>
+                                <span class="contact__subtitle">Gabriel Avilés</span>
+                            </a>
+                        </div>
+
+                        <div class="contact__information">
+                            <a href="https://github.com/gabo592" target="_blank" rel="noopener noreferrer">
+                                <i class="uil uil-github contact__icon"></i>
+                                <h3 class="contact__title">Github</h3>
+                                <span class="contact__subtitle">gabo592</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h2 class="footer__title">Gabriel</h2>
+                        <span class="footer__subtitle">Desarrollador Backend</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#servicios" rel="noopener noreferrer" class="footer__link">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#contacto" rel="noopener noreferrer" class="footer__link">Contáctame</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/profile.php?id=100009243613175" target="_blank" rel="noopener noreferrer" class="footer__social">
+                            <i class="uil uil-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/g_a_a_ch/" target="_blank" rel="noopener noreferrer" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>
